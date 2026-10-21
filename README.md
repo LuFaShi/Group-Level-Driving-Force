@@ -1,5 +1,5 @@
 # Group-Level-Driving-Force
-A repository containing the code and data to reproduce the results in the manuscript titled "A group-level driving force dominates collective movement decision-making"
+A repository containing the code and data to reproduce the results in the manuscript titled "**A group-level driving force dominates collective movement decision-making**"
 
 ### Description
 Below is a short description of what each file and folder contains:
