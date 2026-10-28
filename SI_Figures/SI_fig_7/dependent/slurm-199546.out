@@ -1,0 +1,31 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+                  R2025a (25.1.0.2943329) 64-bit (glnxa64)
+                               April 16, 2025
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'Processes' profile ...
+
+{Error using parpool (line 132)
+Parallel pool failed to start with the following error. For more detailed
+information, validate the profile 'Processes' in the Cluster Profile Manager.
+
+Error in flu_velocity_force_dependent (line 44)
+parpool(20)
+^^^^^^^^^^^
+Error in run (line 112)
+evalin('caller', strcat(scriptStem, ';'));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Caused by:
+    Error using parallel.internal.pool.AbstractInteractiveClient/start (line
+    106)
+    Failed to start pool.
+        Error using parallel.Cluster/createCommunicatingJob (line 115)
+        Unable to set property 'NumWorkersRange' because the job or task is not
+        in the 'pending' state.
+} 
+>> 
